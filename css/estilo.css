@@ -1,0 +1,105 @@
+@charset "UTF-8";
+#inicio {
+  background-image: url(https://i.pinimg.com/originals/6a/d0/78/6ad078625c2c829f647433c71e6c0818.jpg);
+  opacity: .8;
+  background-attachment: fixed; }
+  #inicio .contenedor-derecho {
+    background-color: #d0eee4;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8%; }
+    #inicio .contenedor-derecho .display-4 {
+      color: blueviolet; }
+
+#mas {
+  background-image: url(https://th.bing.com/th/id/R.8196173cd7f4300855ec7f7f69b14e0a?rik=pBUwMyF35InX0A&riu=http%3a%2f%2fletrasdecolores.com%2fwp-content%2fuploads%2f2013%2f10%2fslideinfant-1024x397.jpg&ehk=cjLnsu%2fh0qy6%2bMeclE4rFEbRuWGfwKzXoczQP5I%2fLGU%3d&risl=&pid=ImgRaw&r=0);
+  opacity: .6;
+  padding: 50px 0 30px 0;
+  text-align: center;
+  margin-top: 40px; }
+  #mas .container .h2 {
+    color: #190b27;
+    font-weight: bold; }
+
+/*abstracts*/
+/* lo hice como entendí que me dijiste Joaquín, creo que hay algo de las rutas que no estoy entendiendo, pero si entiendo como funciona el mixin y el extend*/
+#contacto {
+  background: url(https://images.squarespace-cdn.com/content/v1/572a168c22482e932a7ff875/1586790869912-H6VDSNCS9ED566L7SW8J/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/2.jpg);
+  background-size: cover; }
+  #contacto .container .row .contenedorFlex {
+    display: flex;
+    flex-direction: column; }
+    #contacto .container .row .contenedorFlex .redes {
+      color: aliceblue; }
+    #contacto .container .row .contenedorFlex .enlace {
+      background-image: url(https://th.bing.com/th/id/OIP.HGbJ5ltHzO-A897cM7ztIQAAAA?pid=ImgDet&w=400&h=251&rs=1);
+      border-radius: 15px;
+      padding: 2rem;
+      margin-left: 4rem;
+      font-size: 2rem;
+      color: black;
+      font-weight: bold; }
+      #contacto .container .row .contenedorFlex .enlace:hover {
+        color: white;
+        text-shadow: 2px 2px 3px #f00808; }
+    #contacto .container .row .contenedorFlex .enlace1 {
+      background-image: url(https://tehnograf.com/images/soc-seti-001.jpg);
+      border-radius: 15px;
+      padding: 2rem;
+      margin-left: 4rem;
+      font-size: 2rem;
+      color: black;
+      font-weight: bold; }
+      #contacto .container .row .contenedorFlex .enlace1:hover {
+        color: #f5ebeb;
+        text-shadow: 2px 2px 3px #ee0d0d; }
+    #contacto .container .row .contenedorFlex .enlace2 {
+      background-image: url(https://cdn.mosoah.com/wp-content/uploads/2019/10/22124157/%D8%B5%D9%88%D8%B1-%D8%B4%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D9%88%D8%A7%D8%AA%D8%B3-%D8%A7%D8%A8-%D8%B9%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AF%D9%82%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-1024x636.png);
+      border-radius: 15px;
+      padding: 2rem;
+      margin-left: 4rem;
+      font-size: 2rem;
+      color: black;
+      font-weight: bold; }
+      #contacto .container .row .contenedorFlex .enlace2:hover {
+        color: white;
+        text-shadow: 2px 2px 3px #e90707; }
+
+/*ABSTRACTS*/
+/* LO HICE COMO ENTENDI QUE ME DIJISTE JOAQUÍN*/
+.wow {
+  color: #ec13ec;
+  font-weight: bold; }
+
+/*RESTO*/
+body {
+  font-family: 'Alfa Slab One', cursive;
+  background-color: #d0eee4;
+  line-height: 2rem; }
+  body .navbar {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold; }
+
+.nosotrosH1 {
+  color: #ec13ec;
+  font-weight: bold;
+  padding: 2rem; }
+
+.presentacion {
+  border-radius: 50%;
+  margin-left: 3rem; }
+
+.footerh3 {
+  color: #e621ec;
+  background-color: aquamarine;
+  padding: 1rem;
+  border-radius: 15px;
+  margin-top: 10px; }
+
+.display-4 {
+  color: blueviolet; }
+
+.social {
+  display: flex;
+  justify-content: space-around; }

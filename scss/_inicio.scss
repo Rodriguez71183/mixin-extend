@@ -1,0 +1,16 @@
+#inicio {
+    background-image: url(https://i.pinimg.com/originals/6a/d0/78/6ad078625c2c829f647433c71e6c0818.jpg);
+    opacity: .8;
+    background-attachment: fixed;
+
+    .contenedor-derecho {
+        background-color: rgb(208, 238, 228);
+        padding: 1rem;
+        margin: 1rem 0;
+        border-radius: 8%;
+
+        .display-4 {
+            color: blueviolet;
+        }
+    }
+}

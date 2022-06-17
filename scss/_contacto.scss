@@ -1,0 +1,52 @@
+
+/*abstracts*/
+/* lo hice como entendí que me dijiste Joaquín, creo que hay algo de las rutas que no estoy entendiendo, pero si entiendo como funciona el mixin y el extend*/
+@import "./abstracts/mixin";
+
+#contacto {
+    background: url(https://images.squarespace-cdn.com/content/v1/572a168c22482e932a7ff875/1586790869912-H6VDSNCS9ED566L7SW8J/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/2.jpg);
+    background-size: cover;
+
+    .container {
+        .row {
+            .contenedorFlex {
+                display: flex;
+                flex-direction: column;
+
+                .redes {
+                    color: aliceblue;
+                }
+
+                .enlace {
+                    background-image: url(https://th.bing.com/th/id/OIP.HGbJ5ltHzO-A897cM7ztIQAAAA?pid=ImgDet&w=400&h=251&rs=1);
+                    @include parametros;
+
+                    &:hover {
+                        color: white;
+                        text-shadow: 2px 2px 3px rgb(240, 8, 8);
+                    }
+                }
+
+                .enlace1 {
+                    background-image: url(https://tehnograf.com/images/soc-seti-001.jpg);
+                    @include parametros;
+
+                    &:hover {
+                        color: rgb(245, 235, 235);
+                        text-shadow: 2px 2px 3px rgb(238, 13, 13);
+                    }
+                }
+
+                .enlace2 {
+                    background-image: url(https://cdn.mosoah.com/wp-content/uploads/2019/10/22124157/%D8%B5%D9%88%D8%B1-%D8%B4%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D9%88%D8%A7%D8%AA%D8%B3-%D8%A7%D8%A8-%D8%B9%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AF%D9%82%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-1024x636.png);
+                    @include parametros;
+
+                    &:hover {
+                        color: white;
+                        text-shadow: 2px 2px 3px rgb(233, 7, 7);
+                    }
+                }
+            }
+        }
+    }
+}

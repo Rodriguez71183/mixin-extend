@@ -1,0 +1,58 @@
+/*ABSTRACTS*/
+/* LO HICE COMO ENTENDI QUE ME DIJISTE JOAQUÍN*/
+@import "./abstracts/extend";
+
+/*RESTO*/
+body {
+    font-family: 'Alfa Slab One', cursive;
+    background-color: rgb(208, 238, 228);
+    line-height: 2rem;
+
+    .navbar {
+        font-size: 20px;
+        color: #000;
+        font-weight: bold;
+    }
+}
+
+.nosotrosH1 {
+    color: $colorTitulos;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.presentacion {
+    border-radius: 50%;
+    margin-left: 3rem;
+}
+
+
+
+
+.wow {
+    @extend .wow;
+}
+
+
+.wow {
+    @extend .wow;
+
+}
+
+.footerh3 {
+    color: rgb(230, 33, 236);
+    background-color: aquamarine;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+
+.display-4 {
+    color: blueviolet;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+}
